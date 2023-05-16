@@ -1,10 +1,22 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG1 from '../../assets/Certificate/mindtree.png';
+import IMG2 from '../../assets/Certificate/upgrad.png';
+import IMG3 from '../../assets/Certificate/certificate-Become-A-Certified-Web-Developer-From-Scratch.jpg';
+// import IMG4 from '../../assets/Certificate';
+import IMG5 from '../../assets/Certificate/tcs_ion.png';
+import IMG6 from '../../assets/Certificate/internshala.png';
+import IMG7 from '../../assets/Certificate/sap.png';
+import IMG8 from '../../assets/Certificate/service_now.png';
+import IMG9 from '../../assets/Certificate/micro_service.png';
+
+import certificate1 from '../../assets/Certificate/Avijit_Patra_SAP_Certificate.pdf'
+import certificate2 from '../../assets/Certificate/Avijit_TCS_all_in_one.pdf'
+import certificate3 from '../../assets/Certificate/ServiceNowCSA.pdf'
+import certificate4 from '../../assets/Certificate/micro_certificate_virtual_agent.pdf'
+import certificate5 from '../../assets/Certificate/upGrad_Javascript.pdf'
+import certificate6 from '../../assets/Certificate/Web Development Training - Certificate of Completion (1).pdf'
+import certificate7 from '../../assets/Certificate/Certificate_secure_innovation.pdf'
+import certificate8 from '../../assets/Certificate/codedamn-internet_things-certificates.pdf'
 
 import './portfolio.css';
 
@@ -13,21 +25,21 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'ServiceNow System Administrator(CSA)',
-      img: IMG1,
+      img: IMG8,
       description:
         'BookStore app that allows users to store books and update progress',
       technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
+      link: certificate3,
       github: 'https://github.com/Meri-MG/bookstore---react',
     },
     {
       id: 2,
       title: 'Micro Certificate on Virtual Agent (ServiceNow)',
-      img: IMG4,
+      img: IMG9,
       description:
         'FakeStore app that provides information about available products and their details',
       technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
+      link: certificate4,
       github: 'https://github.com/Meri-MG/Fakestore---react',
     },
     {
@@ -36,7 +48,7 @@ const Portfolio = () => {
       img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
       technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
+      link: certificate5,
       github: 'https://github.com/Meri-MG/To-Do-List',
     },
     {
@@ -46,7 +58,7 @@ const Portfolio = () => {
       description:
         'Fully responsive interactive website built based on Figma design',
       technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
+      link: certificate8,
       github: 'https://github.com/Meri-MG/shelter',
     },
     {
@@ -56,17 +68,17 @@ const Portfolio = () => {
       description:
         'Fully responsive interactive website built based on Adobe XD design',
       technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
+      link: certificate2,
       github: 'https://github.com/Meri-MG/Unilab-world-news',
     },
     {
       id: 6,
       title: 'SAP (Techno India University)',
-      img: IMG6,
+      img: IMG7,
       description:
         'Real-world group project which is still in progress and will provide educational platform for future young developers',
       technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
+      link: certificate1,
       github: 'https://github.com/lukinoo/math-resource',
     },
     {
@@ -76,55 +88,35 @@ const Portfolio = () => {
       description:
         'Real-world group project which is still in progress and will provide educational platform for future young developers',
       technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
+      link: certificate6,
       github: 'https://github.com/lukinoo/math-resource',
     },
     {
       id: 8,
-      title: 'Android Development with Kotlin (Infosys Springboot)',
-      img: IMG6,
+      title: 'Mindtree - Secure Delivery for Infrastructure Security Learning Path (2022)',
+      img: IMG1,
       description:
         'Real-world group project which is still in progress and will provide educational platform for future young developers',
       technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
+      link: certificate7,
       github: 'https://github.com/lukinoo/math-resource',
     },
   ];
 
   return (
-    <section id="portfolio">
+    <section id="portfolio2">
       <h5>My Certification</h5>
       <h2>Certificate</h2>
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container2">
         {soloProjects.map((pro) => (
-          <article className="portfolio__item" key={pro.id}>
-            {/* <div className="portfolio__item-image">
+          <article className="portfolio__item2" key={pro.id}>
+            <div className="portfolio__item-image2">
               <img src={pro.img} alt={pro.title} />
-            </div> */}
-            <div className="portfolio__item-content">
-              <h3>{pro.title}</h3>
-              {/* <p>{pro.description}</p>
-              <p>{pro.technologies}</p> */}
             </div>
-            {/* <div className="portfolio__item-cta">
-              <a
-                href={pro.github}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
-            </div> */}
+            <div className="portfolio__item-content">
+             <a href={pro.link} target='_blank'> <h3>{pro.title}</h3></a>
+            </div>
           </article>
         ))}
       </div>

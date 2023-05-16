@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me.jpg';
+import ME from '../../assets/avijit_patra_image.jpeg';
 import './intro.css';
 
 const Intro = () => {
@@ -12,7 +12,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="https://media.licdn.com/dms/image/D4D03AQFZtuCvJ1Hfjw/profile-displayphoto-shrink_800_800/0/1683575806059?e=1689811200&v=beta&t=-NUhGh64BgURxndWbS6rjHNN7ATWWsmNxoN42RHvtf8" alt="me" />
+            <img src={ME} alt="me" />
           </div>
         </div>
         <div className="about__content">
@@ -26,6 +26,11 @@ const Intro = () => {
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>20+ Completed Projects</small>
+            </article>
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
+              <h5>Certificate</h5>
+              <small>30+ Completed Certificate</small>
             </article>
           </div>
           <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>

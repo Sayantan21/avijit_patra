@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+
+    align-items: center;
 } 
 
 .contact__options {
@@ -64,6 +66,10 @@ textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+
+.contact_sub_container{
+    display: flex;
 }
 
 @media screen and (max-width: 1024px){
