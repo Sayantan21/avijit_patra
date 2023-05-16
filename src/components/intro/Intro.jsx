@@ -33,7 +33,7 @@ const Intro = () => {
               <small>30+ Completed Certificate</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>I am a dedicated software engineer with 2 years of experience, currently employed at Mindtree in the ServiceNow Cloud Domain. Holding a Certified System Administrator (CSA) certification and micro-certificates in ServiceNow, I excel in ITSM, ITIL, ServiceNow System Administration, and ServiceNow Developer roles. Proficient in web technologies like HTML, CSS, Javascript, and NodeJS, I have successfully delivered website projects as a freelancer. Continuously expanding my skill set, I am also venturing into Android development, gaining practical experience through training and personal projects.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
