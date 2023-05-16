@@ -26,21 +26,20 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'UrbanEcoSystem',
-      img: IMG4,
+      img: IMG2,
       description:
         `As a freelance project, I developed the plant-based e-commerce website
         "UrbanEcosystem," aiming to bring nature closer to urban India. It offers a wide
         range of unique solutions, including plants, pots, and aquariums, to create green
         ecosystems within urban spaces, catering to the needs of individuals seeking a
-        nature-centric lifestyle.
-        `,
+        nature-centric lifestyle.`,
       technologies: 'Bootstrap | CSS | Javascript',
       link: 'https://urbanecosystem.in/',
     },
     {
       id: 3,
       title: 'Puroheet Website',
-      img: IMG2,
+      img: IMG3,
       description: `As a freelancer, I created a website called Puroheet, offering online Hindu pujas
       and havans services. The platform allows users to book qualified and experienced
       pandits for various rituals, providing puja samagri and ensuring a satisfying and
@@ -51,7 +50,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: 'Age Calculator',
-      img: IMG3,
+      img: IMG4,
       description:
         `As a personal project, I developed an Age Calculator website using JavaScript. It
         enables users to input their date of birth and accurately calculate their age`,
