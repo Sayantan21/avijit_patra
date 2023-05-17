@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
+import { GoLocation } from 'react-icons/go';
+import { FiPhoneCall } from 'react-icons/fi';
 import './contact.css';
 
 const Contact = () => {
@@ -42,18 +44,18 @@ const Contact = () => {
       <div className="container contact__container">
       <div className="contact__options">
             <article className="contact__option">
-              <MdOutlineEmail className="contact__option-icon" />
+              <GoLocation className="contact__option-icon" />
               <h4>Address</h4>
               <p>Burdwan 713102, West Bengal</p>
             </article>
             <article className="contact__option">
               <MdOutlineEmail className="contact__option-icon" />
               <h4>Email</h4>
-              <h5>avijitpatra419@gmail.com</h5>
-              <a href="mailto:avijitpatra419@gmail.com">Send a message</a>
+              <h5>avj.patra@gmail.com</h5>
+              <a href="mailto:avj.patra@gmail.com">Send a message</a>
             </article>
             <article className="contact__option">
-              <MdOutlineEmail className="contact__option-icon" />
+              <FiPhoneCall className="contact__option-icon" />
               <h4>Number</h4>
               <h5>+91 9382742989</h5>
             </article>
